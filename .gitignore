@@ -1,0 +1,16 @@
+﻿__pycache__/
+*.py[codz]
+*$py.class
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+.env
+.envrc
+.venv
+venv/
+env/
+ENV/
