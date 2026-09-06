@@ -216,3 +216,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ================================
+# Android / Gradle
+# ================================
+
+# Gradle caches and generated files
+**/.gradle/
+.gradle/
+
+# Android build outputs
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local Android configuration
+local.properties
+
+# Kotlin
+*.kotlin_module
+
+# ================================
+# ORACLE ML artifacts
+# ================================
+
+# Trained model files
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# ML experiment outputs
+mlruns/
+wandb/
